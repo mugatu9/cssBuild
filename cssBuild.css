@@ -16,7 +16,6 @@ article, aside, details, figcaption, figure,
 footer, header, main, menu, nav, section {
   display: block;
 }
-
 body {
   line-height: 1;
   width: 900px;
@@ -49,16 +48,17 @@ h2{
 }
 ul {
 background-image: url("images/list-bg.png");
-
+list-style: none;
+-webkit-column-count: 2;
+-webkit-column-gap: 1px;
+}
+li {
+  margin-left: 85px;
 }
 .center-image {
   display: block;
   margin-right: auto;
   margin-left: auto;
-}
-/*.block-center {
-  margin-right: 200px;
-  margin-left: 200px;*/
 }
 .floatRight {
   float: right;
@@ -66,7 +66,6 @@ background-image: url("images/list-bg.png");
 .floatLeft {
   float: left;
 }
-
 .iconGroup {
   float: right;
   padding: 2px 2px 2px 2px;
@@ -76,7 +75,7 @@ background-image: url("images/list-bg.png");
 display: inline-block;
 }
 .bumpRight {
-  margin-left: 600px;
+  margin-left: 650px;
 }
 .smallText {
   font-size: 10px;
@@ -84,5 +83,12 @@ display: inline-block;
 }
 .logo {padding: 0 5px 0 0;
 }
-
-use 16 column grid
+.spacer {
+  margin-bottom: 25px;
+}
+.inline {
+  display: inline-block;
+}
+img {
+  display: inline;
+}

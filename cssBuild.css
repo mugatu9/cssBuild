@@ -1,78 +1,7 @@
 <link href='http://fonts.googleapis.com/css?family=Yellowtail|Oswald:700' rel='stylesheet' type='text/css'>
-html, body, div, span, h1, h2, h3, h4, h5, h6, p, a,
- img, em, strong, ol, ul, li, fieldset, form,
- caption, article, aside, details, figure,
- figcaption, footer, header, {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-}
-* {
-  box-sizing: border-box;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, main, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-  width: 900px;
-  margin: 0 auto;
-}
-
-header {
-margin-bottom: -10px;
-}
-footer {
-text-align: center;
-}
-
-a:hover, a:active {
-    outline: none;
-}
-button {
-  margin-top: -50px;
-  height: 40px;
-  color: white;
-  background-color: red;
-  width: 120px;
-  float: right;
-}
-h1 {
-  font-family: Yellowtail;
-}
-h2{
-  font-family: Oswald;
-}
-ul {
-background-image: url("images/list-bg.png");
-list-style: none;
--webkit-column-count: 2;
--webkit-column-gap: 1px;
-}
-li {
-  margin-left: 85px;
-}
 .center-image {
-  display: block;
   margin-right: auto;
   margin-left: auto;
-}
-.floatRight {
-  float: right;
-}
-.floatLeft {
-  float: left;
-}
-.iconGroup {
-  float: right;
-  padding: 2px 2px 2px 2px;
-  margin-top: -26px;
-}
-.sameLine {
-display: inline-block;
 }
 .bumpRight {
   margin-left: 650px;
@@ -86,9 +15,14 @@ display: inline-block;
 .spacer {
   margin-bottom: 25px;
 }
-.inline {
-  display: inline-block;
+ul {
+background-image: url("images/list-bg.png");
+list-style: none;
+-webkit-column-count: 2;
+-webkit-column-gap: 1px;
+-moz-column-count: 2;
+-moz-column-gap: 1px;
+column-count: 2;
+column-gap: 1px;
 }
-img {
-  display: inline;
-}
+

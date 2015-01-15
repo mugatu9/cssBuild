@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1;
+  width: 900px;
+  margin: 0 auto;
+}
+header {
+margin-bottom: -10px;
+}
+footer {
+text-align: center;
+}
